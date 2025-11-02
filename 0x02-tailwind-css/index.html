@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CDN Setup</title>
+
+    <!-- ✅ Step: This script loads Tailwind CSS directly from its CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./src/output.css" rel="stylesheet">
+  </head>
+
+  <body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center">
+    <h1 class="text-4xl font-bold text-indigo-600 mb-4">Hello Tailwind!</h1>
+    <p class="text-gray-700 text-lg">
+      This page uses <span class="font-semibold">Tailwind CSS</span> from the CDN — no installation needed.
+    </p>
+
+    <!-- A sample button to test styling -->
+    <button class="mt-6 px-6 py-2 bg-indigo-500 text-white rounded-lg hover:bg-indigo-600">
+      Click Me
+    </button>
+  </body>
+</html>
